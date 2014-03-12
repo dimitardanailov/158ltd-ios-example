@@ -14,10 +14,22 @@
 
 @implementation _58ltdViewController
 
+// Person text fields
+@synthesize firstNameTextField = _firstNameTextField;
+@synthesize lastNameTextField = _lastNameTextField;
+@synthesize emailTextField = _emailTextField;
+@synthesize ageTextField = _ageTextField;
+
+// Car
+@synthesize carModelTextField = _carModelTextField;
+@synthesize carYearTextField = _carYearTextField;
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	
+    firstNameTextField.accessibilityIdentifier = @"first_name";
+    firstNameTextField.text = @"Hello First Name";
 }
 
 - (void)didReceiveMemoryWarning

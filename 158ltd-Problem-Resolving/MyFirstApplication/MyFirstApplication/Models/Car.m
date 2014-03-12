@@ -8,6 +8,9 @@
 
 #import "Car.h"
 
+@interface Car()
+@end
+
 @implementation Car
 
 @synthesize model = _model;
