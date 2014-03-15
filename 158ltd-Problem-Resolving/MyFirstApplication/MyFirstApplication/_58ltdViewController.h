@@ -24,6 +24,7 @@
     UITextField *carYearTextField;
 }
 
+@property(retain, nonatomic)Person *person;
 @property(retain, nonatomic)UITextField *firstNameTextField;
 @property(retain, nonatomic)UITextField *lastNameTextField;
 @property(retain, nonatomic)UITextField *emailTextField;

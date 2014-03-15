@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C0B5AC018D372EA0024A97C /* Developer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C0B5ABF18D372EA0024A97C /* Developer.m */; };
 		0C3D5BA218CE25660009154C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C3D5BA118CE25660009154C /* Foundation.framework */; };
 		0C3D5BA418CE25660009154C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C3D5BA318CE25660009154C /* CoreGraphics.framework */; };
 		0C3D5BA618CE25660009154C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C3D5BA518CE25660009154C /* UIKit.framework */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C0B5ABE18D372EA0024A97C /* Developer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Developer.h; path = Models/Developer.h; sourceTree = "<group>"; };
+		0C0B5ABF18D372EA0024A97C /* Developer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Developer.m; path = Models/Developer.m; sourceTree = "<group>"; };
 		0C3D5B9E18CE25660009154C /* MyFirstApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFirstApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C3D5BA118CE25660009154C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0C3D5BA318CE25660009154C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -166,6 +169,8 @@
 				0C3D5BD818CE28D50009154C /* Person.m */,
 				0C3D5BDA18CE2AAB0009154C /* Car.h */,
 				0C3D5BDB18CE2AAB0009154C /* Car.m */,
+				0C0B5ABE18D372EA0024A97C /* Developer.h */,
+				0C0B5ABF18D372EA0024A97C /* Developer.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -268,6 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C0B5AC018D372EA0024A97C /* Developer.m in Sources */,
 				0C3D5BDC18CE2AAB0009154C /* Car.m in Sources */,
 				0C3D5BB218CE25660009154C /* _58ltdAppDelegate.m in Sources */,
 				0C3D5BAE18CE25660009154C /* main.m in Sources */,
@@ -481,6 +487,7 @@
 				0C3D5BD218CE25670009154C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0C3D5BD318CE25670009154C /* Build configuration list for PBXNativeTarget "MyFirstApplicationTests" */ = {
 			isa = XCConfigurationList;
@@ -489,6 +496,7 @@
 				0C3D5BD518CE25670009154C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

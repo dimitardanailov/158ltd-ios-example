@@ -14,6 +14,7 @@
 
 @implementation _58ltdViewController
 
+@synthesize person = _person;
 // Person text fields
 @synthesize firstNameTextField = _firstNameTextField;
 @synthesize lastNameTextField = _lastNameTextField;
@@ -28,9 +29,31 @@
 {
     [super viewDidLoad];
 	
-    firstNameTextField.accessibilityIdentifier = @"first_name";
-    firstNameTextField.text = @"Hello First Name";
+    //DLog(@"Hello World".length);
+    
+    //firstNameTextField.accessibilityIdentifier = @"first_name";
+    //firstNameTextField.text = @"Hello First Name";
+    
+    UITextField *textField = [[UITextField alloc] initWithFrame:CGRectMake(150, 12, 120, 25)];
+    textField.returnKeyType = UIReturnKeyDone;
+    textField.placeholder = @"Writer";
+    textField.autocapitalizationType = UITextAutocapitalizationTypeWords;
+    textField.adjustsFontSizeToFitWidth = TRUE;
+    [textField addTarget:self
+                  action:@selector(textFieldDone:)
+        forControlEvents:UIControlEventEditingDidEndOnExit];
+    [self.view addSubview:textField];
+   // [textField release];
 }
+
+- (IBAction)firstName:(id)sender {
+    
+}
+- (IBAction)Create:(id)sender {
+    _person.firstName = @"";
+    
+}
+
 
 - (void)didReceiveMemoryWarning
 {
