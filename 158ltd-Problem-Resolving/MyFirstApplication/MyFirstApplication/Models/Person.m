@@ -12,6 +12,7 @@
 
 @synthesize firstName = _firstName;
 @synthesize lastName = _lastName;
+@synthesize email = _email;
 @synthesize age = _age;
 @synthesize car = _car;
 
